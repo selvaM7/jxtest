@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 335153367672.dkr.ecr.ap-northeast-2.amazonaws.com/selvam7/jxtest
+  tag: 0.0.4
   pullPolicy: IfNotPresent
 service:
   name: jxtest
