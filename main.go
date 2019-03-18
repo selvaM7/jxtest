@@ -10,8 +10,6 @@ import (
 func handler(w http.ResponseWriter, r *http.Request) {
 	title := "pull request test done"
 
-
-
 	from := ""
 	if r.URL != nil {
 		from = r.URL.String()
